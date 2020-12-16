@@ -72,6 +72,7 @@ while True:
         online+=1
     else:
         stext+="Site: FAILED<br>"
+        site_downs+=1
 		
 	#gen results
     if online != 2:
